@@ -20,7 +20,7 @@
     self.window.backgroundColor = [UIColor clearColor];
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController: [[BTMainViewController alloc]init]];
 //    nav.navigationBarHidden = YES;
-//    NSLog(@"提交成功");
+    NSLog(@"提交成功");
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
 }
