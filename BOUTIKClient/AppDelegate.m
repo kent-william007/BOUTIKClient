@@ -23,6 +23,7 @@
     NSLog(@"提交");
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
+    NSLog(@"test1");
 }
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
